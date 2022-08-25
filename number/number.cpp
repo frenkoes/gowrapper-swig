@@ -1,5 +1,5 @@
 #ifdef  __cplusplus
-#include "number.hpp"
+#include "number.h"
 
 Number::Number() {
 
