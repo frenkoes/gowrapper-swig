@@ -5,5 +5,4 @@
     3. Create interface file for the C-Class which is used by swig to generate a go-file
     4. Run: 'swig -go -cgo -c++ -intgosize 64 number/number.i'
     5. This creates a example.go file (and package name aswell)
-    6. Optional: rename file and package to number in this case.
-    7. go build . 
+    6. go build . 
