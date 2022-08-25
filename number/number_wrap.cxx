@@ -8,7 +8,7 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: number.i
+// source: number/number.i
 
 #define SWIGMODULE example
 

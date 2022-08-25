@@ -8,9 +8,9 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: number.i
+// source: number/number.i
 
-package number
+package example
 
 /*
 #define intgo swig_intgo
@@ -38,19 +38,22 @@ extern void _wrap_Number_Print_example_cc09b711e35ee690(uintptr_t arg1);
 */
 import "C"
 
-import (
-	_ "runtime/cgo"
-	"sync"
-	"unsafe"
-)
+import "unsafe"
+import _ "runtime/cgo"
+import "sync"
+
 
 type _ unsafe.Pointer
+
+
 
 var Swig_escape_always_false bool
 var Swig_escape_val interface{}
 
+
 type _swig_fnptr *byte
 type _swig_memberptr *byte
+
 
 type _ sync.Mutex
 
@@ -103,3 +106,5 @@ type Number interface {
 	SetNumber(arg2 int)
 	Print()
 }
+
+
