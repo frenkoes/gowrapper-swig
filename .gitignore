@@ -1,0 +1,3 @@
+gowrapper-swig
+*.cxx
+example.go
